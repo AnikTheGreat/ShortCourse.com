@@ -1,0 +1,99 @@
+
+/* Navigation Section */
+
+.navbar{
+    background-color: #625261;
+    font-family: 'Montserrat', cursive;
+}
+
+.navbar-brand{
+    margin: 1%;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+
+.signup{
+    background-image: url('images/11.png');
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding-bottom: 300px;
+    overflow: hidden;
+}
+
+.welcome {
+    padding-top: 320px;
+    color: #fff;
+    margin-left: 5%;
+    margin-right: 3%;
+  }
+  
+  .infos {
+    padding-top: 300px;
+    color: #fff;
+    margin-left: 3%;
+    margin-right: 0;
+  }
+
+.infos h2{
+    padding-bottom: 15px;
+}
+
+.form-group{
+    text-align: left;
+}
+
+/* Footer Section */
+
+#footer{
+    padding-top: 2%;
+    background-color: #625261;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.foot-left{
+    padding-bottom: 2%;
+}
+
+#footer .foot-left a{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', cursive;
+}
+#footer .foot-right a{
+    color:black;
+    font-weight: bold;
+}
+
+
+/* Media Query */
+
+@media (max-width: 990px){
+    .welcome{
+        margin: auto;
+    }
+
+    .infos{
+        margin: auto;
+    }
+}
+
+@media (max-width: 576px){
+
+    .welcome{
+        margin: 0 50px;
+    }
+
+    .infos{
+        margin: 0 50px;
+    }
+}

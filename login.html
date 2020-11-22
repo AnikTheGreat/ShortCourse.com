@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShortCourse.com</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/login.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/9d48a65459.js" crossorigin="anonymous"></script>
+  <!-- Font Family -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap"
+    rel="stylesheet">
+  <!-- Animate.Style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+</head>
+
+
+<body>
+
+  <section id="Navigation">
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark animate__animated animate__backInUp">
+      <a class="navbar-brand" href="#">ShortCourse.com <i class="fas fa-graduation-cap fa-lg"></i></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Hot Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Java 8</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Python 3</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Java Script ES6</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-dark nav-link" href="signup.html">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-dark nav-link" href="#Navigation">Login</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+    <div class="signup">
+      <div class="row">
+        <div class="welcome col-lg-6 col-md-8 col-sm-10 animate__animated animate__backInLeft">
+
+          <h1 class="animate__animated animate__backInLeft">
+            Hi there !! <br>
+            Welcome to ShortCourse.com
+          </h1>
+
+          <h2 class="animate__animated animate__backInLeft">
+            <br>
+            <br>
+            We are here to help you making a strong
+            career within a very short time. There is also
+            a certificate for you to built a smart Portfolio.
+          </h2>
+          <p class="animate__animated animate__backInLeft">Don't have an account? Want to join now,</p>
+          <button type="submit" class="btn btn-primary btn-lg sign-up">Sign Up for Free</button>
+
+
+        </div>
+
+        <div class="infos col-lg-4 col-md-8 col-sm-8 animate__animated animate__backInRight">
+          <h2>Login Now</h2>
+          <form>
+            <div class="form-group">
+              <label for="userName">Enter your User Name</label>
+              <input type="name" class="form-control" id="userName" aria-describedby="emailHelp"
+                placeholder="Enter an User Name">
+              <small id="emailHelp" class="form-text text-muted">User Name should not contain any space or special
+                character.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Enter your Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <a class="btn btn-primary btn-lg" href="indexafterlogin.html">Login</a>
+            <!-- <button type="submit" class="btn btn-primary btn-lg subBtn">Submit</button> -->
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Footer Section -->
+
+  <section id="footer">
+
+    <div class="foot-left">
+      <a href="">Teach on ShortCourse</a><br>
+      <a href="">Contact us</a><br>
+      <a href="">About us</a><br>
+    </div>
+
+    <div class="foot-right">
+      <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href=""><i class="fab fa-twitter-square fa-2x"></i></a>
+      <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+      <a href=""><i class="fab fa-instagram-square fa-2x"></i></a>
+    </div>
+  </section>
+
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-database.js"></script>
+    
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAN9XtiMxX36dhotluqZFtg-GMhpaQoFFQ",
+        authDomain: "shortcourse-8ee30.firebaseapp.com",
+        databaseURL: "https://shortcourse-8ee30.firebaseio.com",
+        projectId: "shortcourse-8ee30",
+        storageBucket: "shortcourse-8ee30.appspot.com",
+        messagingSenderId: "491126092191",
+        appId: "1:491126092191:web:789da603585b1507990daa",
+        measurementId: "G-8ZWETZZYJD"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    
+    
+    
+    </script>
+    <script src="login.js"></script>
+  <!-- <script>
+    document.querySelector(".sign-up").addEventListener("click", function(){
+      location.href = "signup.html";
+    });
+
+    document.querySelector(".subBtn").addEventListener("click", function(){
+
+      
+      // var dataRef = firebase.database().ref('data/');
+      // dataRef.once('value', function(snapshot){
+      //     snapshot.forEach(function(itemSnapshot){
+      //         var itemData = itemSnapshot.val();
+      //         var name = itemData.name;
+      //         var userName = itemData.userName;
+      //         var password = itemData.password;
+      //     })
+      // })
+
+      var playersRef = firebase.database().ref("data/");
+
+    playersRef.on("child_added", function(data, prevChildKey) {
+    var newPlayer = data.val();
+    console.log("name: " + newPlayer.name);
+    console.log("age: " + newPlayer.email);
+    console.log("number: " + newPlayer.password);
+    console.log("Previous Player: " + prevChildKey);
+});
+      
+      alert(name.length);
+      alert("Anik");
+
+});
+  </script> -->
+
+</body>
+
+</html>

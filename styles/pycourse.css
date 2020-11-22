@@ -1,0 +1,144 @@
+@media (max-width:767px){
+    /* Starting Section */
+
+    #syllebus{
+        margin: 0;
+    }
+    .anik{
+        margin-left: 0px;
+    }
+
+    .mist{
+        visibility: hidden;
+        position: absolute;
+    }
+}
+
+body{
+    font-family: 'Montserrat', cursive;
+}
+/* Navigation Section */
+.navbar{
+    background-color: #625261;
+    font-family: 'Montserrat', cursive;
+}
+
+.navbar-brand{
+    margin: 1%;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+
+/* Starting Section */
+#starting{
+    padding-top: 130px;
+}
+
+.start-div{
+    padding-top: 40px;
+}
+
+.skills{
+    padding-top: 30px;
+}
+
+#starting p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.anik{
+    margin-left: 50px;
+}
+
+.details{
+    padding-top: 50px;
+}
+
+.two-ele{
+    overflow: auto;
+}
+
+.image{
+    float: left;
+    width: 12%;
+    margin-right: 25px;
+}
+
+
+
+/* SYLLEBUS section */
+
+#syllebus{
+    text-align: center;
+    overflow: auto;
+}
+
+.cont-h2{
+    padding-bottom: 30px;
+}
+
+.syl-div{
+    overflow: auto;
+    text-align: left;
+    padding-top: 50px;
+}
+
+.syl-div h2{
+    font-size: 25px;
+}
+
+.syl-div h4{
+    font-size: 15px;
+}
+
+.syl-div p{
+    font-size: 18px;
+    line-height: 2;
+}
+
+
+/* Reviews section */
+
+#reviews{
+    background-color: #faf3dd ;
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/* Footer Section */
+
+#footer{
+    padding-top: 2%;
+    background-color: #625261;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.foot-left{
+    padding-bottom: 2%;
+}
+
+#footer .foot-left a{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', cursive;
+}
+#footer .foot-right a{
+    color:black;
+    font-weight: bold;
+}

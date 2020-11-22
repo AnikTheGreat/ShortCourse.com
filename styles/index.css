@@ -1,0 +1,307 @@
+/* Media Query */
+
+@media (max-width: 988px){
+
+    /* Become an Instructor Section */
+    
+
+    #instructor .ins{
+        margin-left: 15%;
+    }
+
+    /* Hot Courses  */
+
+    #courses{
+        text-align: center;
+    }
+
+    .col-md-6{
+        padding-top: 20px;
+    }
+
+    .colm{
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    /* <!-- Change Your Life  --> */
+
+    #education{
+        text-align: center;
+    }
+
+    /* #education .ins{
+        visibility: hidden;
+        position: absolute;
+    } */
+    #education .ins{
+        visibility: hidden;
+        position: absolute;
+    }
+    #education .write-col .inside{
+        visibility: visible;
+        position: static;
+        margin-top: 35px;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    #education .write-col{
+        padding: 0 50px;
+    }
+
+    /* Testimonial Section */
+
+    #testimonial .tes-div{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+
+    /* Become an Instructor Section */
+
+    #instructor{
+        text-align: center;
+    }
+
+    #instructor .ins{
+        position: absolute;
+        visibility: hidden;
+    }
+
+    /* <!-- Change Your Life  --> */
+
+    #education{
+        text-align: center;
+    }
+
+    #education .ins{
+        float: none;
+        width: 150px;
+        display: block;
+    }
+
+    #education .write-col{
+        padding: 0 50px;
+    }
+}
+
+
+
+
+
+
+
+/* Body Parts */
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-weight: 500;
+}
+/* Navigation Bar Section  */
+#Navigation{
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: #625261;
+    font-family: 'Montserrat', cursive;
+}
+
+.navbar-brand{
+    margin: 1%;
+    font-family: 'Montserrat', cursive;
+    font-weight: bold;
+}
+
+.nav-item{
+    margin-left: 10px;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+#Navigation .col-lg-12{
+    background-image: url('images/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.join{
+    text-align: center;
+    background-color:#faf3dd ;
+    position: absolute;
+    margin-top: 400px;
+    padding: 30px 200px;
+}
+
+.join h1{
+    padding-top: 3%;
+    font-family: 'Montserrat', cursive;
+}
+
+.join p{
+    padding-bottom: 1%;
+    font-family: 'Montserrat', cursive;
+}
+
+
+/* Become an Instructor Section */
+
+#instructor{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: auto;
+    font-family: 'Montserrat', cursive;
+}
+
+#instructor .write-col{
+    background-color:#faf3dd; 
+    margin-top: 1.25%;
+
+}
+
+
+#instructor h2{
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 3.2 rem;
+}
+
+#instructor p{
+    padding-top: 1.5%;
+    font-size: 1.6 rem;
+    padding-bottom: 3%;
+}
+
+.ins{
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#ins-btn{
+    margin-top: 20px;
+}
+
+
+/* <!-- Top Courses Section --> */
+
+#courses{
+    background-color: #625261;
+    text-align: center;
+    font-family: 'Montserrat', cursive;
+}
+
+#courses h2{
+    padding-top: 5%;
+    color: #fff;
+}
+
+.course-div{
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 70%;
+    margin: auto;
+}
+
+
+/* <!-- Change Your Life  --> */
+
+
+#education{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: auto;
+    font-family: 'Montserrat', cursive;
+}
+
+#education .write-col{
+    background-color:#faf3dd; 
+    margin-top: 30px;
+    padding-left: 15%;
+
+}
+
+
+#education h2{
+    padding-top: 3%;
+    font-weight: 700;
+    font-size: 3.2 rem;
+}
+
+#education p{
+    padding-top: 1.5%;
+    font-size: 1.6 rem;
+    padding-bottom: 3%;
+}
+
+#education .ins{
+    width: 20%;
+    float: right;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#education .inside{
+    visibility: hidden;
+    position: absolute;
+    bottom: 1000px;
+}
+
+
+/* Testimonial Section */
+
+#testimonial{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 3%;
+
+}
+
+.tes-div{
+    text-align: center;
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #faf3dd;
+    width: 70%;
+    margin: auto;
+}
+
+/* Footer Section */
+
+#footer{
+    padding-top: 2%;
+    background-color: #625261;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.foot-left{
+    padding-bottom: 2%;
+}
+
+#footer .foot-left a{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Montserrat', cursive;
+}
+#footer .foot-right a{
+    color:black;
+    font-weight: bold;
+}
